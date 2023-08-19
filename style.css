@@ -1,0 +1,72 @@
+body {
+  background-color: #9e9d89 !important;
+}
+.box-cup-coffee {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.coffeeWant {
+  text-align: center;
+}
+.coffeeWant span {
+  font-size: 1.7rem;
+  color: #b67162;
+  font-weight: bold;
+}
+.cup {
+  border: 5px solid black;
+  height: 20vh;
+  width: 15vw;
+  margin-top: 6rem;
+  position: relative;
+  border-radius: 15px;
+}
+.coffeemailk {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 77px;
+  height: 70px;
+}
+.coffeeb{
+  display: flex;
+  height: 70px;
+  position: relative;
+  bottom: 60px;
+}
+
+.coffeetexte {
+  text-align: center;
+}
+svg {
+  position: absolute;
+  top: 0;
+  left: 13rem;
+}
+.plate {
+  position: absolute;
+  border: 4px solid black;
+  width: 15vw;
+  margin-bottom: -22.2rem;
+  height: 3vh;
+  border-radius: 15px;
+  background-color: #9e7676;
+}
+.btn-primary {
+  background-color: #c58e66 !important;
+  color: #ffffff !important;
+  border: #eac696 !important;
+}
+.btn-secondary {
+  background-color: #b17c4b !important;
+  color: #ffffff !important;
+  border: #b17c4b !important;
+}
+.btn-warning {
+  background-color: #bd8a26 !important;
+  color: #ffffff !important;
+  border: #bd8a26 !important;
+}
