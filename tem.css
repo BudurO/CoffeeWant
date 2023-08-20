@@ -20,18 +20,26 @@ body {
     border: 5px solid black;
     height: 20vh;
     width: 15vw;
-    margin-top: 6rem;
+    margin-top: 4.3rem;
     position: relative;
     border-radius: 15px;
   }
- 
+  .coffeemailk {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 66px;
+    bottom: 60px;
+  
+  }
   .coffeeb{
     display: flex;
-    height: 140px;
+    height: 70px;
     position: relative;
-    top: 8px;
+    top: 77px;
+  
   }
- 
+  
   .coffeetexte {
     text-align: center;
   }
@@ -40,7 +48,6 @@ body {
     top: 0;
     left: 13rem;
     width: 50px;
-
   }
   .plate {
     position: absolute;
@@ -55,39 +62,17 @@ body {
     background-color: #c58e66 !important;
     color: #ffffff !important;
     border: #eac696 !important;
-    width: 100px !important;
-
   }
   .btn-secondary {
     background-color: #b17c4b !important;
     color: #ffffff !important;
     border: #b17c4b !important;
-    width: 100px !important;
-
   }
   .btn-warning {
     background-color: #bd8a26 !important;
     color: #ffffff !important;
     border: #bd8a26 !important;
-    width: 100px !important;
-
   }
-  
-
-.btn-primary:hover {
-    background-color: #ce9c79 !important;
-    
-  }
-  .btn-secondary:hover {
-    background-color: #ba8c60 !important;
-    
-  
-  }
-  .btn-warning:hover {
-    background-color: #c4a15a !important;
-    
-  }
-  
   @media only screen and (max-width: 600px) 
 {
 
@@ -103,7 +88,7 @@ body {
     position: absolute;
     border: 4px solid black;
     width: 40vw;
-    margin-bottom: -22.2rem;
+    margin-bottom: -26.2rem;
     height: 3vh;
     border-radius: 15px;
     background-color: #9e7676;
@@ -116,10 +101,18 @@ body {
   }
   .coffeeb{
     display: flex;
-    height: 140px;
+    height: 70px;
     position: relative;
-    top: 8px;
-  }
+    top: 89px;
   
+  }
+  .coffeemailk {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 66px;
+    bottom: 44px;
+  
+  }
   
 }
